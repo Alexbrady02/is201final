@@ -1,0 +1,123 @@
+
+body {
+    background-image: url('photos/vintage-clothes-thrift-shopping-feature.webp');
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    background-size: cover; /* Stretch image to cover entire element */
+    background-position: center; /* Center image horizontally and vertically */
+  }
+  
+
+div.center-panel {
+    max-width: 900px;
+    background-color: rgba(255, 255, 255, 0.95); /* White color with 50% opacity */;
+    margin: auto
+}
+
+div.navbar {
+    width: 100%;
+    background-color: #999999;
+    height: 40px;
+}
+.anchor-class {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+div.navbar a {
+    height: 40px;
+    background-color: #9c8f8f;
+}
+
+.center{
+            text-align: center;
+        }
+.title {
+            font-size: 50px; /* Change the font size to 24 pixels */
+          }
+.nav-item{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.p {
+    margin-bottom: 30px;
+  }
+  .home img{
+    display: inline;
+    width: 250px;
+}
+.content{
+    left: 0;
+    right: 0;
+    text-align: center;
+    position: absolute;
+
+}
+.image-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+  }
+
+
+  .top-image-grid img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .top-image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 25px;
+    margin-right: 200px;
+    margin-left: 200px;
+  }
+
+  .lower-image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 25px;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  
+  .lower-image-grid img {
+    width: 30%; 
+    margin-bottom: 1px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  
+  .big {
+    font-size:30px;
+  }
+
+  .color{
+    font-family: 'Courier New', Courier, monospace;
+    color: #4F86C6;
+  }
+  
+  .main-content{
+    padding-left: 20px;
+    padding-right: 20px
+  }
+
+  .lower-image-grid2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 25px;
+    margin-right: 50px;
+    margin-left: 50px;
+    object-fit: contain;
+  }
+
+
+
